@@ -55,9 +55,10 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
+      }
+      
+      .store h2, .store p {
+        margin-top: 10px;
       }
     </style>
   </head>
@@ -67,7 +68,7 @@
         <img src="AMB.png" alt="ActiveMindBook Logo" style="display: block; margin: 0 auto;">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <!-- No Home link -->
           </ul>
         </nav>
       </header>
@@ -75,8 +76,11 @@
       <section class="store">
         <h1>Our Store</h1>
         <div>
-          <img src="Finding The Gem.png" alt="Finding The Gem book cover" style="width: 200px;">
-          <h2>Finding The Gem</h2>
-          <p>Coming soon...</p>
+          <img src="secret.png" alt="Secrets of gems book cover" style="width: 200px;">
+          <h2>Secrets of Gems</h2>
+          <button class="lang-btn" onclick="alert('Coming Soon!')">Coming Soon</button>
         </div>
-      </section
+      </section>
+    </div>
+  </body>
+</html>
